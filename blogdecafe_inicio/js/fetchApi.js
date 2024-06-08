@@ -1,12 +1,11 @@
 
-getResults()
 
-const url = 'https://visual-crossing-weather.p.rapidapi.com/forecast?contentType=csv&unitGroup=us&aggregateHours=24&location=Washington%2CDC%2CUSA&shortColumnNames=false';
+let url = 'https://api.tomorrow.io/v4/weather/forecast?location=42.3478,-71.0466&apikey=vLHXA2D478ZUKm8p7Z1lo7zfriOrcQKM';
 const options = {
 	method: 'GET',
 	headers: {
-		'x-rapidapi-key': 'c8a1180a6fmsh023edf57775999bp16305djsnea67440b0915',
-		'x-rapidapi-host': 'visual-crossing-weather.p.rapidapi.com'
+		 Api_key :'vLHXA2D478ZUKm8p7Z1lo7zfriOrcQKM',
+		
 	}
 };
 
